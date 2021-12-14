@@ -5,7 +5,7 @@ Predicting corporate bankruptcy and default risk is an issue that concerns the i
 ### Content
 You could find the full training history of most model versions in the "RESULTS" directory. There may not be history for models that fail to converge.
 
-You could find the complete source code of the project in the "SOURCE CODE" directory. The code comes in three parts, in the form of Jupyter Notebooks. 
+You could find the complete source code of the project in the "CODE" directory. The code comes in three parts, in the form of Jupyter Notebooks. 
 
 The first part is "extraction.ipynb". It reads "sf_hdr.txt" to find a list of bankrupt and healthy companies. It then uses web scraping to download 10-K reports of companies on the list from SEC's EDGAR database. The downloaded forms from the bankrupt list and healthy list would be stored in two local directories.
 
